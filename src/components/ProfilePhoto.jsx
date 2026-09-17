@@ -9,13 +9,13 @@ export default function ProfilePhoto() {
   const [errored, setErrored] = useState(false);
 
   return (
-    <div className="relative w-[220px] h-[220px] sm:w-[260px] sm:h-[260px] shrink-0">
+    <div className="relative w-[0px] h-[0px] sm:w-[0px] sm:h-[0px] shrink-0">
       {/* corner brackets */}
       {[
-        "top-[-10px] left-[-10px] border-t-2 border-l-2",
-        "top-[-10px] right-[-10px] border-t-2 border-r-2",
-        "bottom-[-10px] left-[-10px] border-b-2 border-l-2",
-        "bottom-[-10px] right-[-10px] border-b-2 border-r-2",
+        // "top-[-10px] left-[-10px] border-t-2 border-l-2",
+        // "top-[-10px] right-[-10px] border-t-2 border-r-2",
+        // "bottom-[-10px] left-[-10px] border-b-2 border-l-2",
+        // "bottom-[-10px] right-[-10px] border-b-2 border-r-2",
       ].map((cls) => (
         <span
           key={cls}
@@ -37,9 +37,9 @@ export default function ProfilePhoto() {
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">
-            <span className="font-display text-6xl font-semibold" style={{ color: "var(--muted)" }}>
+            {/* <span className="font-display text-6xl font-semibold" style={{ color: "var(--muted)" }}>
               SD
-            </span>
+            </span> */}
           </div>
         )}
       </div>
