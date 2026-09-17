@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
 import Nav from "./components/Nav";
-// import ProfilePhoto from "./components/ProfilePhoto";
+import ProfilePhoto from "./components/ProfilePhoto";
 import { ArrowUpRight, GithubIcon, LinkedinIcon, MailIcon, PhoneIcon } from "./components/icons";
 import { skillGroups, certifications, achievements, education, experience } from "./data/skills.js";
 import { projects } from "./data/projects.js";
